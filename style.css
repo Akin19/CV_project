@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #EEE;
+	font: serif;
+}
+.container{
+	max-width: 1000px;
+	background-color:#003A73;
+	margin: 0 auto;
+	padding: 10px;
+}
+.profile-image{
+	width: 100px;
+	height: 120px;
+	border: 3px solid white;
+	border-radius: 50%;
+	float: left;
+}
+.header-bio{
+	float: left;
+	padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #11999e;
+}
+
+.header-contact{
+	float: right;
+	padding: 30px;
+}
+.header-contact a{
+	text-decoration: none;
+	color: teal;
+	font-weight: bold;
+	
+}
+
+.header-contact p{
+	padding: 2px;
+}
+
+.header-contact a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+.clear-div{
+	clear: both;
+}
+hr{
+	margin: 20px auto;
+	border: solid black 3px;
+	border-bottom: none;
+	width: 100%;
+}
+/*	diclaretion section*/
+#Career{
+	text-align: center;
+	padding:5px;
+}
+
+#diclaration p{
+	padding: 0 5px;
+
+}
+/*	personal section*/
+
+.section{
+	padding: 10px;
+	text-align: left;
+}
+
+.content{
+
+}
+
+.left-div{
+	width: 30%;
+	float: left;
+	padding: 8px;
+	box-sizing: border-box;
+}
+.left-div p{
+	padding: 5px;
+}
+
+.right-div{
+	width: 70%;
+	float: left;
+}
+
+.text-allign{
+	padding-left: 120px;
+}
+
+.common-hr{
+	margin: 20px auto;
+	border: solid black 1px;
+	border-bottom: none;
+	width: 100%;
+}
+#halka-padiing{
+	padding-left: 10px;
+}
+
+/*	personal section*/
+
+.swot-content h1{
+	text-align: center;
+}
+.allign{
+	text-align: center;
+	padding: 10px;
+}
+.skill-allign{
+	margin: 0 auto;
+	padding-left: 80px;
+}
+
+.swot1{
+	width: 50%;
+	float: left;
+	
+}
+.swot2{
+	width: 50%;
+	float: left;
+	
+}
+
+/*	bottom section*/
+.bottom-content{
+	text-align: center;
+	font-weight: bold;
+	color: black;
+
+}
+.bottom-content a{
+	color: green;
+	padding: 7px;
+
+}
+.bottom-content p{
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
